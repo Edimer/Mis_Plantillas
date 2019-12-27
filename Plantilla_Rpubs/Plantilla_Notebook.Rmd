@@ -1,0 +1,39 @@
+---
+title: "Plantilla Notebook RMarkdown"
+subtitle: "Mi plantilla 1"
+author: "Edimer David Jaramillo"
+output:
+  html_notebook:
+    css: estilo.css
+    theme: cosmo
+    highlight: zenburn
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      error = FALSE,
+                      message = FALSE,
+                      fig.align = "center",
+                      fig.width = 8.5,
+                      fig.height = 5,
+                      collapse = TRUE)
+```
+
+<img src="img/science.png" style="position:absolute;top:0px;right:30px; width:150px" />
+
+# Datos
+
+# Metodología
+
+# Resultados {.tabset .tabset-fade .tabset-pills}
+
+## 1. Lectura de datos
+
+## 2. Análisis exploratorio
+
+## 3. Modelos
+
+## 4. Referencias
+
